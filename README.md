@@ -32,5 +32,5 @@ Checkout other branches aswell:
 
 ## TODO
 
-- [ ] complete [PLUGINS](#plugins) and [FEATURES](#features)
+- [x] complete [PLUGINS](#plugins) and [FEATURES](#features)
   - [ ] Also insert _URL_ for the plugins
