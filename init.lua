@@ -1,7 +1,7 @@
 -- INFO: Set options, mappings, and other simple config here
 local vim = vim
 
-vim.cmd('so ' .. vim.fn.stdpath('config') .. '/file.vim') -- this works, ... after fix...
+vim.cmd("so " .. vim.fn.stdpath("config") .. "/file.vim") -- this works, ... after fix...
 
 local aucmd = vim.api.nvim_create_autocmd
 local augroup = vim.api.nvim_create_augroup
@@ -32,11 +32,11 @@ aucmd("PackChanged", {
 
 ---Plugin from github.com
 ---@param plugin string -- _user/repo_
----@param tbl nil|opts -- **OPTIONAL** see: `:h vim.pack-exampes`
----@return string -- full url
-local function gh(plugin, tbl)
-    tbl = tbl or {}
-    return vim.tbl_extend("error", { src = "https://github.com/" .. plugin }, tbl)
+---@param opts nil|optsPair -- **OPTIONAL** see: `:h vim.pack-exampes`
+---@return table -- full url
+local function gh(plugin, opts)
+    opts = opts or {}
+    return vim.tbl_extend("error", { src = "https://github.com/" .. plugin }, opts)
 end
 local vrange = vim.version.range
 vim.pack.add({
