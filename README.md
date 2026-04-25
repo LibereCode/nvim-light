@@ -15,8 +15,14 @@ This a (non-complete?) list of things/features in the config:
 ## PLUGINS
 
 - leap.nvim
-- whichkey.nvim
--
+- which-key.nvim
+- mini.nvim
+- nvim-lspconfig
+- nvim-treesitter
+- nvim-treesitter-context
+- blink.cmp
+- friendly-snippets
+- fzf-lua
 
 ## BRANCHES
 
