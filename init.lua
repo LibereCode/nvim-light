@@ -1,7 +1,7 @@
 -- INFO: Set options, mappings, and other simple config here
 local vim = vim
 
-vim.cmd([[so ~/.vimrc]]) -- this works
+vim.cmd([[so ./file.vim]]) -- this works
 
 local aucmd = vim.api.nvim_create_autocmd
 local augroup = vim.api.nvim_create_augroup
