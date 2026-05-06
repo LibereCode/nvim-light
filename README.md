@@ -3,6 +3,9 @@
 A **lightweight nvim** config using as much builtin functions possible.
 Great for _tty_ and other limited environments
 
+> [!NOTE]
+> This is the _development branch_ `laptop`.
+
 ## FEATURES
 
 This a (non-complete?) list of things/features in the config:
@@ -23,13 +26,6 @@ This a (non-complete?) list of things/features in the config:
 - blink.cmp
 - friendly-snippets
 - fzf-lua
-
-## BRANCHES
-
-Checkout other branches as well:
-
-- `minimal` - A really _minimal_ (lua) config (best for tty)
-- `laptop` - my working branch for my laptop.
 
 ## TODO
 
