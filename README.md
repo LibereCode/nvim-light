@@ -1,7 +1,7 @@
 # README nvim-light
 
 A **lightweight nvim** config using as much builtin functions possible.
-Great for _TTY_ and other limited environments
+Great for _tty_ and other limited environments
 
 ## FEATURES
 
@@ -26,9 +26,10 @@ This a (non-complete?) list of things/features in the config:
 
 ## BRANCHES
 
-Checkout other branches aswell:
+Checkout other branches as well:
 
-- `minimal` - A really _minimal_ (lua) config
+- `minimal` - A really _minimal_ (lua) config (best for tty)
+- `laptop` - my working branch for my laptop.
 
 ## TODO
 
