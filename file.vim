@@ -62,5 +62,3 @@ no		j		gj
 no		k		gk
 
 colorscheme wildcharm
-
-" TODO: `:h vim.pack`
