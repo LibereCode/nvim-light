@@ -1,7 +1,7 @@
 -- INFO: Set options, mappings, and other simple config here
 local vim = vim
 
-vim.cmd("so " .. vim.fn.stdpath("config") .. "/file.vim") -- this works, ... after fix...
+vim.cmd("so " .. vim.fn.stdpath("config") .. "/vimit.vim") -- this works, ... after fix...
 
 vim.o.winborder = "+,-,+,|,+,-,+,|"
 
